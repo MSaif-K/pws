@@ -137,15 +137,15 @@ a {
 }
 
 /* Social Media Logos Hover Styles */
-.bi-twitter.social-media-logo:hover {
-  color: #1da1f2;
+.twitterx.social-media-logo:hover {
+  color: #657786;
 }
 
-.bi-discord.social-media-logo:hover {
+.discord.social-media-logo:hover {
   color: #7289d9;
 }
 
-.bi-linkedin.social-media-logo:hover {
+.linkedin.social-media-logo:hover {
   color: #0a66c2;
 }
 
