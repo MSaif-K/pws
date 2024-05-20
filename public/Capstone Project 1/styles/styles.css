@@ -51,6 +51,9 @@ a:hover {
     h6, p, td, li {
         font-size: 1.35rem;
     }
+    .fp {
+        font-size: 1.15rem;
+    }
 }
 @media screen and (max-width: 768px) {
     .body {
@@ -66,6 +69,12 @@ a:hover {
     }
     h3 {
         font-size: 1.25rem;
+    }
+    h6, p, td, li {
+        font-size: 1rem;
+    }
+    .fp {
+        font-size: 0.9rem;
     }
 }
 @media screen and (max-width: 480px) {
@@ -92,6 +101,9 @@ a:hover {
     h6, p, td, li {
         font-size: 0.8rem;
     }
+    .fp {
+        font-size: 0.7rem;
+    }
 }
 @media screen and (max-width: 290px) {
     h1 {
@@ -105,6 +117,9 @@ a:hover {
     }
     h6, p, td, li {
         font-size: 0.6rem;
+    }
+    .fp {
+        font-size: 0.5rem;
     }
     ul {
         padding-left: 0.9rem;
