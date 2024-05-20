@@ -1,0 +1,24 @@
+a {
+    text-decoration: none;
+    color: #D7BD29;
+}
+body {
+    padding: 1rem;
+}
+
+a:hover {
+    color: #9364D9;
+    transition: ease-in 0.2s;
+}
+.linkedin:hover {
+    color: #0a66c2;
+    transition: ease-in 0.2s;
+}
+.discord:hover {
+    color: #7289d9;
+    transition: ease-in 0.2s;
+}
+.x:hover {
+    color: #657786;
+    transition: ease-in 0.2s;
+}

@@ -1,0 +1,112 @@
+a {
+    text-decoration: none;
+    color: #D7BD29;
+}
+hr {
+    margin: 3rem auto;
+    border: none;
+    border-top: dotted 0.5rem #230D44;
+    width: 20%;
+}
+.header {
+    background-color: #230D44;
+    color: white;   /* #9364D9 */
+    padding: 1.25rem 2rem;
+}
+.body {
+    padding: 2rem;
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+}
+.dp {
+    border-radius: 50%;
+    width: 40%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+.footer {
+    background-color: #230D44;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+a:hover {
+    color: #9364D9;
+    transition: ease-in 0.2s;
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.75rem;
+    }
+    h6, p, td, li {
+        font-size: 1.35rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .body {
+        width: 90%;
+    }
+}
+@media screen and (min-width: 360px) and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.25rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    .dp {
+        width: 50%;
+    }
+    ul {
+        padding-left: 1.2rem;
+    }
+}
+@media screen and (max-width: 360px) {
+    .body {
+        width: 100%;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.15rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    h6, p, td, li {
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 290px) {
+    h1 {
+        font-size: 1.25rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    h3 {
+        font-size: 0.8rem;
+    }
+    h6, p, td, li {
+        font-size: 0.6rem;
+    }
+    ul {
+        padding-left: 0.9rem;
+    }
+}
