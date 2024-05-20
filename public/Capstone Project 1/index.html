@@ -19,171 +19,187 @@
     />
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon/" />
     <link rel="manifest" href="./favicon/site.webmanifest" />
+
+    <!-- Bootstrap CDN Links -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./styles/styles.css" />
   </head>
+
   <body>
-    <h1 style="margin-bottom: 0">Muhammed Saif Khan</h1>
-    <h2 style="margin-top: 1pt; margin-bottom: 0">U.S. Citizen</h2>
-    <p style="margin-top: 3pt">
-      Dallas, TX, USA |
-      <a href="./public/contact.html" style="text-decoration: none"
-        >Contact Me</a
+    <div class="header">
+      <h1>Muhammed Saif Khan</h1>
+      <h2>U.S. Citizen</h2>
+      <p class="mb-0">
+        Dallas, TX, USA |
+        <a href="./public/contact.html">Contact Me</a>
+      </p>
+    </div>
+
+    <div class="body">
+      <img
+        src="./images/my-dp.png"
+        alt="muhammed saif khan's profile picture"
+        class="dp"
+      />
+
+      <h3 class="text-center">Profile</h3>
+      <p class="mt-3">
+        Full-stack web developer with a bachelor's degree in computer
+        engineering, offering more than 1 year of experience. Developed and
+        managed web applications with a focus on making user-friendly and
+        attractive websites to enhance the user experience. On average, I
+        reduced bounce rates by 10% by carefully selecting relevant web
+        technologies, such as HTML5, Bootstrap 5, and JavaScript (ES6), to
+        improve responsiveness and make websites more user-friendly. Improved
+        client self-service capabilities by creating easy-to-use customer
+        portals and cutting onboarding times by an average of 17%.
+      </p>
+
+      <hr />
+
+      <h3 class="text-center">Core Expertise</h3>
+      <table
+        class="table table-bordered table-light table-striped-columns mt-3"
       >
-    </p>
-    <img src="./images/my-dp.png" alt="muhammed saif khan's profile picture" height="250" style="border-radius: 50%;"/>
+        <tr>
+          <td>Front-End Web Development</td>
+          <td>
+            HTML 5 ▪ Bootstrap 5 ▪ Javascript ES6 ▪ DOM Manipulation ▪ jQuery ▪
+            Bash Command Line ▪ Git, GitHub and Version Control
+          </td>
+        </tr>
+        <tr>
+          <td>Back-End Web Development</td>
+          <td>
+            Node.js ▪ NPM ▪ Express.js ▪ EJS ▪ REST ▪ APIs ▪ Databases ▪ SQL ▪
+            PostgreSQL ▪ Authentication ▪ Firebase ▪ React.js ▪ React Hooks ▪
+            Web Design
+          </td>
+        </tr>
+        <tr>
+          <td>Web3 Development</td>
+          <td>
+            Token contract development ▪ NFT minting, buying and selling logic
+          </td>
+        </tr>
+      </table>
+      <hr />
 
-    <h3>Profile</h3>
-    <p>
-      Full-stack web developer with a bachelor's degree in computer engineering,
-      offering more than 1 year of experience. Developed and managed web
-      applications with a focus on making user-friendly and attractive websites
-      to enhance the user experience. On average, I reduced bounce rates by 10%
-      by carefully selecting relevant web technologies, such as HTML5, Bootstrap
-      5, and JavaScript (ES6), to improve responsiveness and make websites more
-      user-friendly. Improved client self-service capabilities by creating
-      easy-to-use customer portals and cutting onboarding times by an average of
-      17%.
-    </p>
+      <h3>Professional Experience</h3>
+      <ul>
+        <li>
+          <h6 class="mt-3">
+            Full-Stack Web Development | Int. Business Services Network - Hybrid
+          </h6>
+          <p class="mb-2">April 2023 - Present</p>
+          <p>My responsibilities:</p>
+          <ul>
+            <li>
+              Collaborating on high-quality web apps, using Git/GitHub for
+              version control,
+            </li>
+            <li>
+              Fixed critical bug preventing user registration, using browser dev
+              tools and Node.js hot fix,
+            </li>
+            <li>
+              Streamlined data exchange (12% faster) with RESTful APIs in
+              Node.js/Express.js, interacting with PostgreSQL using DML queries,
+            </li>
+            <li>
+              Developed responsive user-friendly website (HTML5/Bootstrap5/JS)
+              leading to 10% bounce rate reduction,
+            </li>
+            <li>
+              Collaborated with team to ensure apps meet user demands in global
+              markets.
+            </li>
+          </ul>
+        </li>
 
-    <hr />
+        <li>
+          <h6 class="mt-3">IT Support Intern | Doko</h6>
+          <p class="mb-2">January 2023 - Mar 2023</p>
+          <p>My responsibilities:</p>
+          <ul>
+            <li>
+              Managed account setup, providing guidance and support for seamless
+              system integration,
+            </li>
+            <li>
+              Led scanner installation and configured hardware, software, and
+              network for Doko's 20-person development team,
+            </li>
+            <li>
+              Directed server configuration (Windows 2000 & ISA Server 2004),
+              network mapping, and access policy creation for efficient data
+              processing,
+            </li>
+            <li>Performed equipment replacement, repair, and diagnostics.</li>
+          </ul>
+        </li>
 
-    <h3>Core Expertise</h3>
-    <table width="500" cellpadding="5" cellspacing="0" border="1">
-      <tr>
-        <td>Front-End Web Development</td>
-        <td>
-          HTML 5 ▪ Bootstrap 5 ▪ Javascript ES6 ▪ DOM Manipulation ▪ jQuery ▪
-          Bash Command Line ▪ Git, GitHub and Version Control
-        </td>
-      </tr>
-      <tr>
-        <td>Back-End Web Development</td>
-        <td>
-          Node.js ▪ NPM ▪ Express.js ▪ EJS ▪ REST ▪ APIs ▪ Databases ▪ SQL ▪
-          PostgreSQL ▪ Authentication ▪ Firebase ▪ React.js ▪ React Hooks ▪ Web
-          Design
-        </td>
-      </tr>
-      <tr>
-        <td>Web3 Development</td>
-        <td>
-          Token contract development ▪ NFT minting, buying and selling logic
-        </td>
-      </tr>
-    </table>
+        <li>
+          <h6 class="mt-3">Front-End Web Development Intern | Doko - Remote</h6>
+          <p class="mb-2">August 2022 - Oct 2022</p>
+          <p>My responsibilities:</p>
+          <ul>
+            <li>
+              Partnered with developers to implement creative solutions for a
+              more engaging website,
+            </li>
+            <li>
+              Led website improvements at Doko, including image optimization,
+              page speed, and UI enhancements using Bootstrap,
+            </li>
+            <li>
+              Improved navigation and color scheme for better readability and
+              brand alignment, leading to a 6% performance gain and 13% better
+              accessibility,
+            </li>
+            <li>
+              Revamped website content, pricing plans, and navigation, resulting
+              in a 9% performance increase and 15% accessibility boost.
+            </li>
+          </ul>
+        </li>
+      </ul>
 
-    <hr />
+      <hr />
 
-    <h3>Professional Experience</h3>
-    <ul>
-      <li>
-        <h4>
-          Full-Stack Web Development | Int. Business Services Network - Hybrid
-        </h4>
-        <p>April 2023 - Present</p>
-        <p>My responsibilities:</p>
-        <ul>
-          <li>
-            Collaborating on high-quality web apps, using Git/GitHub for version
-            control,
-          </li>
-          <li>
-            Fixed critical bug preventing user registration, using browser dev
-            tools and Node.js hot fix,
-          </li>
-          <li>
-            Streamlined data exchange (12% faster) with RESTful APIs in
-            Node.js/Express.js, interacting with PostgreSQL using DML queries,
-          </li>
-          <li>
-            Developed responsive user-friendly website (HTML5/Bootstrap5/JS)
-            leading to 10% bounce rate reduction,
-          </li>
-          <li>
-            Collaborated with team to ensure apps meet user demands in global
-            markets.
-          </li>
-        </ul>
-      </li>
-
-      <li>
-        <h4>IT Support Intern | Doko</h4>
-        <p>January 2023 - Mar 2023</p>
-        <p>My responsibilities:</p>
-        <ul>
-          <li>
-            Managed account setup, providing guidance and support for seamless
-            system integration,
-          </li>
-          <li>
-            Led scanner installation and configured hardware, software, and
-            network for Doko's 20-person development team,
-          </li>
-          <li>
-            Directed server configuration (Windows 2000 & ISA Server 2004),
-            network mapping, and access policy creation for efficient data
-            processing,
-          </li>
-          <li>Performed equipment replacement, repair, and diagnostics.</li>
-        </ul>
-      </li>
-
-      <li>
-        <h4>Front-End Web Development Intern | Doko - Remote</h4>
-        <p>August 2022 - Oct 2022</p>
-        <p>My responsibilities:</p>
-        <ul>
-          <li>
-            Partnered with developers to implement creative solutions for a more
-            engaging website,
-          </li>
-          <li>
-            Led website improvements at Doko, including image optimization, page
-            speed, and UI enhancements using Bootstrap,
-          </li>
-          <li>
-            Improved navigation and color scheme for better readability and
-            brand alignment, leading to a 6% performance gain and 13% better
-            accessibility,
-          </li>
-          <li>
-            Revamped website content, pricing plans, and navigation, resulting
-            in a 9% performance increase and 15% accessibility boost.
-          </li>
-        </ul>
-      </li>
-    </ul>
-
-    <hr />
-
-    <h3>Education, Certificates, and Projects</h3>
-    <ul>
-      <li>
-        B.Sc. in Computer Engineering |
-        <a href="https://antalya.edu.tr/en" style="text-decoration: none">
-          Antalya Bilim University
-        </a>
-        | Antalya, Tükiye | September 2019 - August 2023
-      </li>
-      <li>
-        <a
-          href="./public/certificate-courses.html"
-          style="text-decoration: none"
-          >Certificate Courses</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://github.com/MSaif-K?tab=repositories"
-          style="text-decoration: none"
-          >Projects</a
-        >
-      </li>
-    </ul>
-
-    <hr />
-
-    <footer>
-      <p>© 2024 Muhammed Saif Khan. All rights reserved.</p>
-    </footer>
+      <h3>Education, Certificates, and Projects</h3>
+      <ul class="mt-3">
+        <li>
+          B.Sc. in Computer Engineering |
+          <a href="https://antalya.edu.tr/en"> Antalya Bilim University </a>
+          | Antalya, Türkiye | September 2019 - August 2023
+        </li>
+        <li>
+          <a href="./public/certificate-courses.html">Certificate Courses</a>
+        </li>
+        <li>
+          <a href="https://github.com/MSaif-K?tab=repositories">Projects</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer">
+      <footer>
+        <p class="text-center mb-1" style="font-style: italic">
+          © 2024 Muhammed Saif Khan. All rights reserved.
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
