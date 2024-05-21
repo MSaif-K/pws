@@ -137,8 +137,8 @@ a {
 }
 
 /* Social Media Logos Hover Styles */
-.twitterx.social-media-logo:hover {
-  color: #657786;
+.github.social-media-logo:hover {
+  color: white;
 }
 
 .discord.social-media-logo:hover {
