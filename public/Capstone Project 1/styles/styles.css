@@ -1,127 +1,146 @@
 a {
-    text-decoration: none;
-    color: #D7BD29;
+  text-decoration: none;
+  color: #d7bd29;
 }
 hr {
-    margin: 3rem auto;
-    border: none;
-    border-top: dotted 0.5rem #230D44;
-    width: 20%;
+  margin: 3rem auto;
+  border: none;
+  border-top: dotted 0.5rem #230d44;
+  width: 20%;
+}
+.icons {
+  width: 28pt;
+  height: 28pt;
 }
 .header {
-    background-color: #230D44;
-    color: white;   /* #9364D9 */
-    padding: 1.25rem 2rem;
+  background-color: #230d44;
+  color: white; /* #9364D9 */
+  padding: 1.25rem 2rem;
+}
+.h-anchor {
+  margin-right: 0.2rem;
 }
 .body {
-    padding: 2rem;
-    width: 80%;
-    margin: 0 auto;
-    text-align: justify;
+  padding: 2rem;
+  width: 80%;
+  margin: 0 auto;
+  text-align: justify;
 }
 .dp {
-    border-radius: 50%;
-    width: 40%;
-    display: flex;
-    margin: 0 auto;
-    margin-bottom: 2rem;
+  border-radius: 50%;
+  width: 40%;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 2rem;
 }
 .footer {
-    background-color: #230D44;
-    color: white;
-    padding: 1rem 2rem;
-    text-align: center;
+  background-color: #230d44;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
 }
 
 a:hover {
-    color: #9364D9;
-    transition: ease-in 0.2s;
+  color: #9364d9;
+  transition: ease-in 0.2s;
 }
 
 @media screen and (min-width: 768px) {
-    h1 {
-        font-size: 2.5rem;
-    }
-    h2 {
-        font-size: 2rem;
-    }
-    h3 {
-        font-size: 1.75rem;
-    }
-    h6, p, td, li {
-        font-size: 1.35rem;
-    }
-    .fp {
-        font-size: 1.15rem;
-    }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h6,
+  p,
+  td,
+  li {
+    font-size: 1.35rem;
+  }
+  .fp {
+    font-size: 1.15rem;
+  }
 }
 @media screen and (max-width: 768px) {
-    .body {
-        width: 90%;
-    }
+  .body {
+    width: 90%;
+  }
 }
 @media screen and (min-width: 360px) and (max-width: 768px) {
-    h1 {
-        font-size: 2rem;
-    }
-    h2 {
-        font-size: 1.5rem;
-    }
-    h3 {
-        font-size: 1.25rem;
-    }
-    h6, p, td, li {
-        font-size: 1rem;
-    }
-    .fp {
-        font-size: 0.9rem;
-    }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  h6,
+  p,
+  td,
+  li {
+    font-size: 1rem;
+  }
+  .fp {
+    font-size: 0.9rem;
+  }
 }
 @media screen and (max-width: 480px) {
-    .dp {
-        width: 50%;
-    }
-    ul {
-        padding-left: 1.2rem;
-    }
+  .dp {
+    width: 50%;
+  }
+  ul {
+    padding-left: 1.2rem;
+  }
 }
 @media screen and (max-width: 360px) {
-    .body {
-        width: 100%;
-    }
-    h1 {
-        font-size: 1.5rem;
-    }
-    h2 {
-        font-size: 1.15rem;
-    }
-    h3 {
-        font-size: 1rem;
-    }
-    h6, p, td, li {
-        font-size: 0.8rem;
-    }
-    .fp {
-        font-size: 0.7rem;
-    }
+  .body {
+    width: 100%;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.15rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  h6,
+  p,
+  td,
+  li {
+    font-size: 0.8rem;
+  }
+  .fp {
+    font-size: 0.7rem;
+  }
 }
 @media screen and (max-width: 290px) {
-    h1 {
-        font-size: 1.25rem;
-    }
-    h2 {
-        font-size: 1rem;
-    }
-    h3 {
-        font-size: 0.8rem;
-    }
-    h6, p, td, li {
-        font-size: 0.6rem;
-    }
-    .fp {
-        font-size: 0.5rem;
-    }
-    ul {
-        padding-left: 0.9rem;
-    }
+  h1 {
+    font-size: 1.25rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 0.8rem;
+  }
+  h6,
+  p,
+  td,
+  li {
+    font-size: 0.6rem;
+  }
+  .fp {
+    font-size: 0.5rem;
+  }
+  ul {
+    padding-left: 0.9rem;
+  }
 }
